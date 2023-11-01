@@ -1,0 +1,76 @@
+.mainContainer {
+  display: flex;
+  margin: auto;
+  border-radius: 30px;
+
+}
+
+.color {
+  height: 500px;
+  width: 375px;
+  background-color: rgb(1, 73, 102);
+  margin-left: 300px;
+  margin-top: 90px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.aboutme {
+  margin-left: 70px;
+  margin-top: 200px;
+
+}
+
+.aboutme h1,
+p {
+  color: white;
+}
+
+.container {
+  height: 483px;
+  width: 400px;
+  margin-top: 90px;
+  /* margin-left: 497px; */
+  padding-top: 16px;
+  padding-left: 50px;
+  font-size: 18px;
+  background-color: aliceblue;
+
+  border-radius: 0px 10px 10px 0px;
+
+}
+
+.btn {
+  background-color: rgb(1, 73, 102);
+  color: white;
+  padding: 5px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: green;
+}
+
+input {
+  height: 15px;
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(1, 73, 102);
+}
+
+body {
+  background-image: url(.vscode/tsvet-forma-fon-230.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
