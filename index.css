@@ -69,7 +69,7 @@ input:focus {
 }
 
 body {
-  background-image: url(.vscode/tsvet-forma-fon-230.jpg);
+  background-image: url("images/tsvet-forma-fon-230.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
